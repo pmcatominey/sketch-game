@@ -1,0 +1,29 @@
+@import "node_modules/chota/dist/chota.min";
+
+body {
+  width: 100%;
+  background: #b3e5fc;
+  padding: 16px;
+}
+
+main {
+  width: 100%;
+}
+
+.card {
+  background-color: white;
+}
+
+.canvas-wrapper {
+  position: relative;
+  min-height: 300px;
+}
+
+.chat-view {
+  margin-top: 16px;
+
+  .chat-box {
+    height: 200px;
+    overflow-y: auto;
+  }
+}

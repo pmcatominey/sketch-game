@@ -1,0 +1,47 @@
+{
+  "homepage": "https://github.com/pmcatominey/sketch-game",
+  "license": "UNLICENSED",
+  "main": "src/index.js",
+  "name": "sketch-game-ui",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "private": true,
+  "scripts": {
+    "build": "taskr build release",
+    "preserve": "yarn run build",
+    "serve": "serve release -s -p 4000",
+    "start": "taskr watch"
+  },
+  "version": "0.1.0",
+  "author": "Peter McAtominey",
+  "devDependencies": {
+    "@taskr/clear": "^1.1.0",
+    "@taskr/concat": "^1.1.0",
+    "@taskr/esnext": "^1.1.0",
+    "@taskr/htmlmin": "^1.1.0",
+    "@taskr/postcss": "^1.1.2",
+    "@taskr/rev": "^1.1.0",
+    "@taskr/sass": "^1.1.0",
+    "@taskr/uglify": "^1.1.0",
+    "@taskr/watch": "^1.1.0",
+    "autoprefixer": "^9.0.0",
+    "browser-sync": "^2.23.6",
+    "rollup": "^0.63.4",
+    "rollup-plugin-buble": "^0.19.2",
+    "rollup-plugin-commonjs": "^9.1.3",
+    "rollup-plugin-node-resolve": "^3.3.0",
+    "rollup-plugin-replace": "^2.0.0",
+    "serve": "^9.1.0",
+    "taskr": "^1.1.0",
+    "workbox-build": "^3.2.0"
+  },
+  "dependencies": {
+    "@hyperapp/logger": "^0.5.0",
+    "@hyperapp/router": "^0.7.0",
+    "chota": "^0.5.1",
+    "hyperapp": "^1.2.5",
+    "painterro": "^0.2.68"
+  }
+}
