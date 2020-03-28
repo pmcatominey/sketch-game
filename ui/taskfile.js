@@ -1,6 +1,7 @@
 const browserSync = require('browser-sync')
 const wbBuild = require('workbox-build')
 const rollup = require('rollup')
+const process = require('process')
 
 let isWatching = false
 let isServer = false
