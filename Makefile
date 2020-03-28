@@ -1,10 +1,10 @@
 .PHONY: test
 test:
-	go test -mod vendor -cover ./...
+	go test -cover ./...
 
 .PHONY: build
 build:
-	go build -mod vendor -o sketch-game
+	go build -o sketch-game
 
 .PHONY: dev
 dev: build
