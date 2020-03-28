@@ -71,7 +71,7 @@ func (g *game) handle(playerName string, conn *websocket.Conn) {
 			updated = g.state.SubmitGuess(playerName, cmd.Data["guess"])
 		case "markGuessCorrect":
 			updated = g.state.MarkGuess(playerName, cmd.Data["player"], true)
-			updateMsg = fmt.Sprintf("%s has guessed correctly!", playerName)
+			updateMsg = fmt.Sprintf("%s has guessed correctly!", cmd.Data["player"])
 		case "markGuessIncorrect":
 			updated = g.state.MarkGuess(playerName, cmd.Data["player"], false)
 		}
