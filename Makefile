@@ -4,7 +4,7 @@ test:
 
 .PHONY: build
 build:
-	go build -o sketch-game
+	go build -o sketch-game cmd/main.go
 
 .PHONY: dev
 dev: build

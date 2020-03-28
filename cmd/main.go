@@ -5,7 +5,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/pmcatominey/sketch-game/game"
+	"github.com/pmcatominey/sketch-game/pkg/game"
 )
 
 var (

@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/gorilla/websocket"
-	"github.com/pmcatominey/sketch-game/state"
+	"github.com/pmcatominey/sketch-game/pkg/state"
 )
 
 var random = rand.New(rand.NewSource(time.Now().UnixNano()))

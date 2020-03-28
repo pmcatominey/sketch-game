@@ -1,6 +1,6 @@
 package game
 
-import "github.com/pmcatominey/sketch-game/state"
+import "github.com/pmcatominey/sketch-game/pkg/state"
 
 type command struct {
 	Type string            `json:"type"`
