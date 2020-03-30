@@ -16,7 +16,7 @@ dev: build
 
 .PHONY: dev-ui
 dev-ui:
-	cd ui; yarn start
+	cd ui; npm run start
 
 .PHONY: dist
 dist:

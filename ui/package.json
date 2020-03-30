@@ -10,7 +10,7 @@
   "private": true,
   "scripts": {
     "build": "taskr build release",
-    "preserve": "yarn run build",
+    "preserve": "npm run build",
     "serve": "serve release -s -p 4000",
     "start": "taskr watch"
   },
